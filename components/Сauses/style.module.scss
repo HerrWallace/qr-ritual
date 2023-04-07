@@ -1,0 +1,39 @@
+.cause {
+
+    position: relative;
+    text-align: left;
+    .cause_icon {
+        position: absolute;
+        width: 20px;
+        top: 5px;
+        padding-top: 10px;
+    }
+    .cause_body {
+        padding: 10px 30px;
+    }
+    .cause_title {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 0,02em;
+    }
+    .cause_text {
+        font-size: 17px;
+        line-height: 27px;
+        letter-spacing: 0,02em;
+        margin-top: 6px !important;
+        margin-bottom: 35px;
+    }
+}
+.causes_container {
+    margin-top: 90px;
+    margin-bottom: 90px;
+    text-align: center;
+    .causes_title {
+        font-weight: 600;
+        margin-bottom: 60px;
+        font-size: 50px;
+        line-height: 40px;
+        letter-spacing: 0,02em;
+    }
+}

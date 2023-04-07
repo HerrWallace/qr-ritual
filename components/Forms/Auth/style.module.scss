@@ -1,0 +1,50 @@
+.btn {
+    background: linear-gradient(84.38deg, #8383F7 -89.95%, #1919F1 136.37%);
+    border: none;
+    height: 51px;
+    width: 100%;
+    border: none;
+    font-weight: 700 !important;
+    font-size: 15px !important;
+    letter-spacing: 0.03em;
+}
+.or {
+    margin-top: 10px !important;
+    text-align: center;
+}
+.password {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    button {
+        padding-left: 10px;
+        color: rgba(51, 51, 243, 0.9);
+        font-size: 13px;
+        letter-spacing: 0.03em;
+        background-color: transparent;
+        border-color: transparent;
+    }
+}
+
+.point {
+    border-color: rgba(0, 0, 0, 0.28) !important;
+    &::after {
+        background-color: rgba(0, 0, 0, 0.28) !important;
+    }
+}
+.remember_pass {
+    color: rgba(0, 0, 0, 0.7);
+}
+.remember_point {
+    border-color: rgba(0, 0, 0, 0.5)!important;
+    &::after {
+        border-color: rgba(73, 73, 244, 1) !important;
+        background-color: rgba(73, 73, 244, 1) !important;
+    }
+}
+.remember_point_selected {
+    border-color: rgba(73, 73, 244, 1) !important;
+}
+.btn_group {
+    margin-top: 15px !important;
+}

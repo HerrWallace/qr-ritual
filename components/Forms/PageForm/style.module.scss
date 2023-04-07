@@ -1,0 +1,42 @@
+.biography, .facts {
+    height: 300px;
+    padding: 25px;
+    border-radius: 7px;
+    outline: none;
+}
+
+.facts {
+    background: rgba(255, 245, 0, 0.25) !important;
+    border: none !important;
+}
+
+.map_container {
+    text-align: center;
+    p {
+        margin: 10px !important;
+        font-size: 17px;
+        line-height: 21px;
+        letter-spacing: 0.03em;
+    }
+}
+.description_container {
+    margin: 60px 0 80px 0;
+}
+
+
+.send_container {
+    text-align: center;
+    
+    .btn_send {
+        background: #3939D6;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 18px;
+        letter-spacing: 0.03em;
+        max-width: 310px;
+        width: 100%;
+        margin: auto;
+        margin: 80px 0;
+        padding: 15px 0;
+    }
+}
